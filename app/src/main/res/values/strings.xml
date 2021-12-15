@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">actividad</string>
+    <string name="login_button">Explore Now</string>
+    <string name="search">Search...</string>
 </resources>

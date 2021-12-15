@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7cccc4"
+    android:background="#73C6B6"
     tools:context=".LoginFragment"
     >
 
@@ -14,17 +14,15 @@
         android:clipChildren="false"
         android:clipToPadding="false"
         android:orientation="vertical"
-        android:padding="24dp"
-        android:paddingTop="16dp"
+        android:padding="20dp"
+        android:paddingTop="10dp"
         >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:layout_marginLeft="20sp"
+            android:layout_marginLeft="10dp"
             android:text="Unforgotten"
             android:textSize="40sp"
-            android:layout_marginTop="30sp"
             android:textStyle="bold"
             android:textColor="@color/white"
             />
@@ -32,7 +30,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20sp"
+            android:layout_marginLeft="10dp"
             android:text="Experiences"
             android:textAlignment="center"
             android:textColor="@color/white"
@@ -41,12 +39,36 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="30sp"
-            android:layout_marginLeft="20sp"
-            android:layout_marginRight="70sp"
+            android:layout_marginTop="25sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="70dp"
             android:text="Book your tour with us we have many packages to explore the world"
-            android:textSize="13sp"
+            android:textSize="13dp"
             android:textColor="@color/white"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="@string/login_button"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginTop="12dp"
+                android:background="@android:color/transparent"
+                />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="390dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/bote"
             />
 
     </LinearLayout>
